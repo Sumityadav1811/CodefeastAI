@@ -12,7 +12,7 @@ const LandingPage = () => {
   const [isDark, setIsDark] = useState(true);
   const chatContainerRef = useRef(null);
   const inputRef = useRef(null);
-  const [modelName, setModelName] = useState("gemini-2.5-flash");
+  const [modelName, setModelName] = useState("gemini-2.5-flash-lite");
 
   const aiClient = new GoogleGenAI({
     apiKey: import.meta.env.VITE_GEMINI_API_KEY,
