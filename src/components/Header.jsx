@@ -4,15 +4,12 @@ import { Trash2, Sun, Moon, BotMessageSquare } from "lucide-react";
 const Header = ({ isDark, setIsDark, clearChat, messages }) => (
   <header
     className={`flex justify-between items-center px-6 py-4 border-b ${
-      isDark ? "bg-gray-900 border-gray-700" : "bg-white border-gray-200"
+      isDark ? "bg-[#1e1e1e] border-gray-700" : "bg-white border-gray-200"
     }`}
   >
     <div className="flex items-center gap-3">
-      <div className="p-3 rounded-2xl bg-linear-to-br from-blue-500/20 to-purple-500/20">
-        <BotMessageSquare className="w-6 h-6 text-blue-500" />
-      </div>
       <div>
-        <h1 className="text-xl font-bold bg-blue-500 bg-clip-text text-transparent">
+        <h1 className="text-2xl font-bold bg-blue-500 bg-clip-text text-transparent">
           CodeFeast AI
         </h1>
       </div>

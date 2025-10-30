@@ -1,4 +1,4 @@
-export { default as AIChatInterface } from "./AIChatInterface";
+export { default as AIChatInterface } from "./LandingPage";
 export { default as Header } from "./Header";
 export { default as ChatContainer } from "./ChatContainer";
 export { default as MessageBubble } from "./MessageBox";

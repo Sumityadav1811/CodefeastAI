@@ -1,5 +1,5 @@
 import React from "react";
-import AIChatInterface from "./components/AIChatInterface";
+import AIChatInterface from "./components/LandingPage";
 
 function App() {
   return <AIChatInterface />;

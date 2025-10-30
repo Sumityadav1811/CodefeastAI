@@ -5,7 +5,7 @@ import InputArea from "./InputArea";
 import TypingIndicator from "./TypingIndicator";
 import { GoogleGenAI } from "@google/genai";
 
-const AIChatInterface = () => {
+const LandingPage = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -88,7 +88,7 @@ const AIChatInterface = () => {
   return (
     <div
       className={`h-screen flex flex-col transition-all ${
-        isDark ? "bg-gray-900 text-gray-100" : "bg-gray-50 text-gray-900"
+        isDark ? "bg-[#1e1e1e] text-gray-100" : "bg-gray-50 text-gray-900"
       }`}
     >
       <Header
@@ -117,4 +117,4 @@ const AIChatInterface = () => {
   );
 };
 
-export default AIChatInterface;
+export default LandingPage;
